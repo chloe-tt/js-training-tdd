@@ -8,6 +8,25 @@
 
 // Your code:
 
+const myArrayNumber = [];
+function total(myArrayNumber)
+{
+    
+}
+return total(myArrayNumber.length);
+
+
+
+
+
+
+
+
+
+
+
+
+
 //* Begin of tests
 const assert = require('assert');
 
