@@ -11,6 +11,11 @@
 
 // Your code:
 
+
+function abs(integer) {
+    return integer < 0 ? -integer : integer;
+  }
+
 //* Begin of tests
 const assert = require('assert');
 
@@ -22,4 +27,5 @@ assert.strictEqual(abs(0), 0);
 assert.strictEqual(abs(-1), 1);
 assert.strictEqual(abs(-13.2), 13.2);
 assert.strictEqual(abs(132), 132);
+
 // End of tests */
