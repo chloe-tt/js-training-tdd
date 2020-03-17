@@ -11,6 +11,15 @@
 
 // Your code:
 
+let nb1 = 2
+let nb2 = 6
+
+function max (nb1, nb2) {
+    return nb1 > nb2 ? nb1 : nb2
+  }
+
+
+
 //* Begin of tests
 const assert = require('assert');
 
