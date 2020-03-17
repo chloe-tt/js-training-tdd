@@ -9,6 +9,27 @@
 
 // Your code:
 
+
+function sameSign(number1, number2)
+{
+    if(number1 > 0 && number2 > 0) // Both are positives
+    {
+        return true;
+    }
+    else if(number1 < 0 && number2 < 0) // Both are negatives
+    {
+        return true;
+    }
+    else if(number1 === 0 && number2 === 0) // Both are equals to 0
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+
 //* Begin of tests
 const assert = require('assert');
 
