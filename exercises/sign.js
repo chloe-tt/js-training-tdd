@@ -12,6 +12,21 @@
 
 // Your code:
 
+let nb1= 0
+
+function sign (nb1) {
+    if (nb1 > 0) {
+        return 1
+    } else if (nb1 === 0){
+        return 0
+    } else {
+        return -1
+    }
+  }
+
+
+
+
 //* Begin of tests
 const assert = require('assert');
 
