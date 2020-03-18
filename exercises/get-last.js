@@ -9,6 +9,12 @@
 
 // Your code:
 
+const myArray = []
+
+function getLast (myArray) {
+    return myArray[myArray.length -1];
+}
+
 //* Begin of tests
 const assert = require('assert');
 
